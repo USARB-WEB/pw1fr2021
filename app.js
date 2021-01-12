@@ -4,6 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         document.body.style.backgroundColor = 'orange';
     }, 2000);
+
+    console.log("Hello JS");
+
+    let a = 1;
+    const b = 3;
+    console.log(a);
+    console.log(a + b);
 });
 
 
