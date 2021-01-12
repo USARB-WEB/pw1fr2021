@@ -13,4 +13,24 @@ document.addEventListener("DOMContentLoaded", () => {
     numbers.splice(3, 2);
 
     console.log(numbers);
+
+    console.log("for");
+    for (let index = 0; index < numbers.length; index++) {
+        console.log(numbers[index]);
+    }
+
+    console.log("for of");
+    for (const element of numbers) {
+        console.log(element);
+    }
+    console.log("for in");
+    for (const key in numbers) {
+        if (Object.hasOwnProperty.call(numbers, key)) {
+            console.log(numbers[key]); 
+        }
+    }
+    console.log("foreach");
+    numbers.forEach(element => {
+        console.log(element);
+    });
 });
