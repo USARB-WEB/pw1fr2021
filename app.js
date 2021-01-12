@@ -15,6 +15,10 @@ document.getElementById("yellowButton").addEventListener("click", () => {
     document.body.style.backgroundColor = 'yellow';
 })
 
+document.getElementById("pinkButton").addEventListener("click", () => {
+    document.body.style.backgroundColor = 'pink';
+})
+
 document.getElementById("greenButton").addEventListener("mouseenter", () => {
     document.body.style.backgroundColor = 'cyan';
 });
